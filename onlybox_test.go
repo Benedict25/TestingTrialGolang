@@ -184,6 +184,7 @@ func TestTotalBayarDiatas500Jt(t *testing.T) {
 }
 
 // 10. Total Bayar - Total Dibawah / Sama Dengan 500.000.000
+
 var (
 	totalBayarSeharusnyaDibawah500Jt float64 = 6400000
 )

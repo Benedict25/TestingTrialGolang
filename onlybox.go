@@ -4,8 +4,24 @@ import (
 	"math"
 )
 
-// Program "Only-Box" - Storage System
+// Program "Only-Box" - Storage System 0 haiiiii
 // Pilih ukuran gudang, pilih ukuran box (pasti selalu sama - fixed size)
+
+func CekSisiGudang(sisi float64) float64 {
+	if sisi < 1 || sisi > 20 {
+		return 0
+	} else {
+		return sisi
+	}
+}
+
+func CekSisiBox(sisi float64) float64 {
+	if sisi < 1 || sisi > 5 {
+		return 0
+	} else {
+		return sisi
+	}
+}
 
 func HitungVolume(sisi float64) float64 {
 
